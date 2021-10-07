@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5A40324270AE99C004BE347 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5A40324270AE99C004BE347 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5C784E726FB240700EACEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C784E626FB240700EACEA4 /* AppDelegate.swift */; };
 		A5C784E926FB240700EACEA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C784E826FB240700EACEA4 /* SceneDelegate.swift */; };
 		A5C784EB26FB240700EACEA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C784EA26FB240700EACEA4 /* ContentView.swift */; };
@@ -53,7 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A5A40324270AE99C004BE347 /* (null) in Embed Frameworks */,
+				A5A40324270AE99C004BE347 /* BuildFile in Embed Frameworks */,
 				A5CA69D7270C335600EDB72D /* Nbmap.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
