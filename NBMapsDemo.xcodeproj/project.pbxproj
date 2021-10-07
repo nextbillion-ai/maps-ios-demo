@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5A0AED92705AEF0003DD9D6 /* Nbmap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0AED72705AEED003DD9D6 /* Nbmap.framework */; };
-		A5A0AEDA2705AEF0003DD9D6 /* Nbmap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0AED72705AEED003DD9D6 /* Nbmap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5A40324270AE99C004BE347 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5C784E726FB240700EACEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C784E626FB240700EACEA4 /* AppDelegate.swift */; };
 		A5C784E926FB240700EACEA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C784E826FB240700EACEA4 /* SceneDelegate.swift */; };
 		A5C784EB26FB240700EACEA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C784EA26FB240700EACEA4 /* ContentView.swift */; };
@@ -26,6 +25,8 @@
 		A5C7853C26FC5BC700EACEA4 /* MatrixDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C7853B26FC5BC700EACEA4 /* MatrixDemo.swift */; };
 		A5C7853E26FC5BCD00EACEA4 /* MatchingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C7853D26FC5BCD00EACEA4 /* MatchingDemo.swift */; };
 		A5C7854026FC5BDA00EACEA4 /* MarkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C7853F26FC5BDA00EACEA4 /* MarkerDemo.swift */; };
+		A5CA69D6270C335600EDB72D /* Nbmap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CA69D4270C333900EDB72D /* Nbmap.framework */; };
+		A5CA69D7270C335600EDB72D /* Nbmap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5CA69D4270C333900EDB72D /* Nbmap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A5A0AEDA2705AEF0003DD9D6 /* Nbmap.framework in Embed Frameworks */,
+				A5A40324270AE99C004BE347 /* (null) in Embed Frameworks */,
+				A5CA69D7270C335600EDB72D /* Nbmap.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +62,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A5A0AED72705AEED003DD9D6 /* Nbmap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nbmap.framework; sourceTree = "<group>"; };
 		A5C784E326FB240700EACEA4 /* NBMapsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBMapsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C784E626FB240700EACEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C784E826FB240700EACEA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		A5C7853B26FC5BC700EACEA4 /* MatrixDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixDemo.swift; sourceTree = "<group>"; };
 		A5C7853D26FC5BCD00EACEA4 /* MatchingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingDemo.swift; sourceTree = "<group>"; };
 		A5C7853F26FC5BDA00EACEA4 /* MarkerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerDemo.swift; sourceTree = "<group>"; };
+		A5CA69D4270C333900EDB72D /* Nbmap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nbmap.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A0AED92705AEF0003DD9D6 /* Nbmap.framework in Frameworks */,
+				A5CA69D6270C335600EDB72D /* Nbmap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +114,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		139C59095927EB9A67935DAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A5C784DA26FB240700EACEA4 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +128,7 @@
 				A5C784FC26FB240800EACEA4 /* NBMapsDemoTests */,
 				A5C7850726FB240800EACEA4 /* NBMapsDemoUITests */,
 				A5C784E426FB240700EACEA4 /* Products */,
+				139C59095927EB9A67935DAE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,7 +145,7 @@
 		A5C784E526FB240700EACEA4 /* NBMapsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A5A0AED72705AEED003DD9D6 /* Nbmap.framework */,
+				A5CA69D4270C333900EDB72D /* Nbmap.framework */,
 				A5C7853626FC5B9100EACEA4 /* Features */,
 				A5C784E626FB240700EACEA4 /* AppDelegate.swift */,
 				A5C784E826FB240700EACEA4 /* SceneDelegate.swift */,
